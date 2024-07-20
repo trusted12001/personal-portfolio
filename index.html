@@ -11,7 +11,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -20,8 +20,57 @@
     </header>
 
     <main>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, my name is Abdulfatah Abdussalam and i am a dynamic and detail-oriented Front-End Developer with a passion for crafting user-friendly and visually appealing web applications. Proficient in HTML, CSS, JavaScript, and React, with hands-on experience in MySQL, Git, GitHub, PHP, CodeIgniter, and Laravel. Committed to delivering high-quality code and fostering collaborative team environments to create innovative solutions that enhance user experiences. Seeking a challenging role where I can leverage my skills to contribute to cutting-edge projects and drive technological advancements.</p>
+        <section id="my-self">
+            <div id="row">
+                <div class="row-col">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>Hi, I'm Abdul, a passionate Front End Developer with experience in creating responsive and interactive web applications. Explore my projects and learn more about my journey.</p>    
+                    <p>Connecting with others is one of the best parts of my work. I enjoy discussing new ideas, brainstorming on projects, and sharing insights about web development.</p>
+                    <a class="button" href="projects.html">View My Work!</a>
+                </div>
+                <div class="row-col" style="background-color:rgb(227, 229, 236); padding: 0px;">
+                    <img src="images/abdul_profile.png" width="500px" alt="Profile picture for Abdulfatah Abdussalam">
+                </div>
+            </div>
+        </section>
+
+        <section id="my-skills">
+            <h2 style="padding-left: 32px;">My skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <p>Creating structured and semantic markup for web applications.</p>
+                    <p>
+                        <input type="range" value="92" min="0" max="100" disabled style="width: 100%;">
+                    </p>
+                </div>
+                
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <p>Designing responsive and visually appealing user interfaces.</p>
+                    <p>
+                        <input type="range" value="90" min="0" max="100" disabled style="width: 100%;">
+                    </p>
+                </div>
+                
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <p>Adding interactivity and dynamic functionality to websites.</p>
+                    <p>
+                        <input type="range" value="85" min="0" max="100" disabled style="width: 100%;">
+                    </p>
+                </div>
+                
+                <div class="skill">
+                    <h3>React</h3>
+                    <p>Building scaleable and maintainable web applications with React</p>
+                    <p>
+                        <input type="range" value="75" min="0" max="100" disabled style="width: 100%;">
+                    </p>
+                </div>
+                
+            </div>
+        </section>
     </main>
 
     <footer>
